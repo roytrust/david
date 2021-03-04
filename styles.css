@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background: rgba(0, 250, 237, 0.952);
+    height: 100%;
+    align-items: center;
+  }
+
+  .top {
+    background-color:#e5e5e5;
+    text-align:center;
+    width: 100%;
+    display: block;
+  }
+
+  .menu {
+    width:100%;
+    text-align:center;
+    padding:15px;
+  }
+
+  .menu a {
+    background: linear-gradient(to right, rgba(0, 250, 237, 0.952), rgba(0, 158, 250, 0.774));
+    padding:8px;
+    margin-top1:7px;
+    display:block;
+    color:black;
+  }
+
+  .toolbox {
+    width:100%;
+    text-align:center;
+    padding1:15px;
+    margin-top1: 15px;
+  }
+
+  .toolbox a {
+    background: linear-gradient(to right, rgba(0, 250, 237, 0.952), rgba(0, 158, 250, 0.774));
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    color:black;
+  }
+
+  .copy {
+      display: block;
+      background: rgba(96, 0, 250, 0.9);
+      align-items: center;
+      width: 100%;
+      padding:15px;
+    }
+
+  .games {
+    margin-left: 40%;
+  }
+
+  .tools {
+    margin-left: 40%;
+  }
+
+  .bottom {
+      background-color:#e5e5e5;
+      text-align:center;
+      padding:10px;
+    }
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu {
+      width:100%;
+    }
+  }
